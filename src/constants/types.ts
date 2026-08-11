@@ -13,6 +13,7 @@ interface ContainerProps {
 
 interface AvatarProps {
   image?: string;
+  fallBackName?: string;
 }
 
 export { AvatarProps, ContainerProps, HeaderProps };

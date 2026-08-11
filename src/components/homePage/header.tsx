@@ -37,7 +37,7 @@ const Header = ({ greeting, name, image }: HeaderProps) => {
         </Text>
       </View>
       <View>
-        <Avatar />
+        <Avatar fallBackName={name} />
       </View>
     </View>
   );

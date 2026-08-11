@@ -12,6 +12,14 @@ export const ThemeStyles = {
     // background
     bgWhite: "#FFFFFF",
     bgAccent: "#F6F6F9",
+    bgPrimary: "#4A29C7",
+    bgLightPrimary: "#E8E8FF",
+    bgGreen: "#10B981",
+    bgLightGreen: "#E8F5E9",
+    bgRed: "#EF4444",
+    bgLightRed: "#FDE8E8",
+    bgOrange: "#FFC107",
+    bgLightOrange: "#FFF3E0",
     // border
     borderPrimary: "#4A29C7",
     borderGreen: "#10B981",
@@ -31,6 +39,14 @@ export const ThemeStyles = {
     // background
     bgWhite: "#16161E",
     bgAccent: "#16161E",
+    bgPrimary: "#7B61FF",
+    bgLightPrimary: "#3A3569",
+    bgGreen: "#34D399",
+    bgLightGreen: "#0E4225",
+    bgRed: "#F87171",
+    bgLightRed: "#4F2424",
+    bgOrange: "#FBBF24",
+    bgLightOrange: "#5C3C0E",
     // border
     borderPrimary: "#7B61FF",
     borderGreen: "#34D399",

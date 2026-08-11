@@ -57,4 +57,9 @@ export const globalStyles = StyleSheet.create({
   border4: { borderWidth: 4 },
   border6: { borderWidth: 6 },
   border8: { borderWidth: 8 },
+
+  // cases
+  capitalize: { textTransform: "capitalize" },
+  uppercase: { textTransform: "uppercase" },
+  lowercase: { textTransform: "lowercase" },
 });
