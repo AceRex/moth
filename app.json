@@ -37,6 +37,13 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "d27906f4-605e-4c84-8979-aab95e950d20"
+      }
+    },
+    "owner": "acerex"
   }
 }
