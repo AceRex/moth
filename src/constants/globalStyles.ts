@@ -5,12 +5,14 @@ export const globalStyles = StyleSheet.create({
   // Sizing
   wFull: { width: "100%" },
   hFull: { height: "100%" },
+  w20: { width: 20 },
   w40: { width: 40 },
   h40: { height: 40 },
   w60: { width: 60 },
   h60: { height: 60 },
   w80: { width: 80 },
   h80: { height: 80 },
+  wAuto: { width: "auto" },
 
   // Flex
   flex1: { flex: 1 },

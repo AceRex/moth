@@ -1,18 +1,13 @@
-import { globalColorStyles } from "@/constants/globalColorStyles";
+import { useColors } from "@/constants/colors";
 import { globalStyles } from "@/constants/globalStyles";
-import { useTheme } from "@/constants/themeProvider";
-import { ThemeStyles } from "@/constants/themeStyles";
 import { HeaderProps } from "@/constants/types";
-import React, { useMemo } from "react";
+import React from "react";
 import { Text, View } from "react-native";
 import Avatar from "../avatar";
 import SearchInput from "../searchInput";
 
 const Header = ({ greeting, name, image }: HeaderProps) => {
-  const { theme } = useTheme();
-  const colors = ThemeStyles[theme];
-  const colorStyles = useMemo(() => globalColorStyles(colors), [colors]);
-
+  const colors = useColors();
   return (
     <View
       style={[globalStyles.wFull, globalStyles.column, globalStyles.spaceY12]}
@@ -30,12 +25,12 @@ const Header = ({ greeting, name, image }: HeaderProps) => {
             style={[
               globalStyles.textXl,
               globalStyles.fontSemibold,
-              colorStyles.textBlack,
+              colors.textBlack,
             ]}
           >
             {greeting}, {name}
           </Text>
-          <Text style={[globalStyles.textSm, colorStyles.textLightGray]}>
+          <Text style={[globalStyles.textSm, colors.textLightGray]}>
             Find your perfect student home
           </Text>
         </View>

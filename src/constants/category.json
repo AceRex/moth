@@ -1,0 +1,20 @@
+{
+  "search_list": [
+    {
+      "id": 1,
+      "name": "All"
+    },
+    {
+      "id": 2,
+      "name": "Hostels"
+    },
+    {
+      "id": 3,
+      "name": "Apartments"
+    },
+    {
+      "id": 4,
+      "name": "Dorms"
+    }
+  ]
+}
