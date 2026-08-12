@@ -1,22 +1,38 @@
-// app/(tabs)/_layout.tsx
+import AnimatedTab from "@/components/animatedTab";
 import { ThemeProvider, useTheme } from "@/constants/themeProvider";
 import { ThemeStyles } from "@/constants/themeStyles";
-import { BottomTabBarProps } from "@react-navigation/bottom-tabs";
+import { Ionicons } from "@expo/vector-icons";
 import { Tabs } from "expo-router";
+import React, { ComponentProps } from "react";
 import { StyleSheet, View } from "react-native";
 import {
   SafeAreaProvider,
   useSafeAreaInsets,
 } from "react-native-safe-area-context";
 
-function CustomTabBar({ state, descriptors, navigation }: BottomTabBarProps) {
+const ICONS: Record<string, keyof typeof Ionicons.glyphMap> = {
+  home: "home-outline",
+  search: "search-outline",
+  bookings: "heart-outline",
+  wallet: "wallet-outline",
+  profile: "person-outline",
+};
+
+type TabBarProps =
+  NonNullable<ComponentProps<typeof Tabs>["tabBar"]> extends (
+    props: infer P,
+  ) => any
+    ? P
+    : never;
+
+function CustomTabBar({ state, descriptors, navigation }: TabBarProps) {
   const { theme } = useTheme();
   const colors = ThemeStyles[theme];
   const insets = useSafeAreaInsets();
 
   return (
     <View style={[styles.wrapper, { paddingBottom: insets.bottom || 16 }]}>
-      <View style={[styles.bar, { backgroundColor: colors.bgWhite ?? "#fff" }]}>
+      <View style={[styles.bar, { backgroundColor: colors.bgPrimary }]}>
         {state.routes.map((route, index) => {
           const { options } = descriptors[route.key];
           const isFocused = state.index === index;
@@ -58,8 +74,9 @@ export default function TabLayout() {
           screenOptions={{ headerShown: false }}
         >
           <Tabs.Screen name="home" options={{ title: "Home" }} />
-          <Tabs.Screen name="wishlist" options={{ title: "Wishlist" }} />
-          <Tabs.Screen name="bag" options={{ title: "Bag" }} />
+          <Tabs.Screen name="search" options={{ title: "Search" }} />
+          <Tabs.Screen name="bookings" options={{ title: "Bookings" }} />
+          <Tabs.Screen name="wallet" options={{ title: "Wallet" }} />
           <Tabs.Screen name="profile" options={{ title: "Profile" }} />
         </Tabs>
       </SafeAreaProvider>
@@ -70,7 +87,7 @@ export default function TabLayout() {
 const styles = StyleSheet.create({
   wrapper: {
     position: "absolute",
-    bottom: 0,
+    bottom: 10,
     left: 0,
     right: 0,
     alignItems: "center",
@@ -79,31 +96,13 @@ const styles = StyleSheet.create({
   bar: {
     flexDirection: "row",
     alignItems: "center",
-    borderRadius: 32,
+    borderRadius: 14,
     paddingVertical: 8,
     paddingHorizontal: 8,
-    shadowColor: "#000",
+    shadowColor: "#4b29c796",
     shadowOffset: { width: 0, height: 4 },
-    shadowOpacity: 0.08,
+    shadowOpacity: 0.09,
     shadowRadius: 12,
     elevation: 6,
-  },
-  tab: {
-    flexDirection: "row",
-    alignItems: "center",
-    justifyContent: "center",
-    paddingVertical: 10,
-    paddingHorizontal: 14,
-    borderRadius: 24,
-  },
-  tabActive: {
-    backgroundColor: "#1a1a1a",
-    paddingHorizontal: 18,
-  },
-  label: {
-    color: "#fff",
-    fontSize: 14,
-    fontWeight: "600",
-    marginLeft: 6,
   },
 });

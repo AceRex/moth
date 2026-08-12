@@ -3,7 +3,7 @@ import { globalStyles } from "@/constants/globalStyles";
 import { useTheme } from "@/constants/themeProvider";
 import { ThemeStyles } from "@/constants/themeStyles";
 import { HeaderProps } from "@/constants/types";
-import { useMemo } from "react";
+import React, { useMemo } from "react";
 import { Text, View } from "react-native";
 import Avatar from "../avatar";
 import SearchInput from "../searchInput";

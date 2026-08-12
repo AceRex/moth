@@ -3,7 +3,7 @@ import { globalStyles } from "@/constants/globalStyles";
 import { useTheme } from "@/constants/themeProvider";
 import { ThemeStyles } from "@/constants/themeStyles";
 import { Ionicons } from "@expo/vector-icons";
-import { useMemo } from "react";
+import React, { useMemo } from "react";
 import { TextInput, View } from "react-native";
 
 const SearchInput = () => {

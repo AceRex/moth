@@ -3,7 +3,7 @@ import Container from "@/constants/container";
 import { globalColorStyles } from "@/constants/globalColorStyles";
 import { useTheme } from "@/constants/themeProvider";
 import { ThemeStyles } from "@/constants/themeStyles";
-import { useMemo } from "react";
+import React, { useMemo } from "react";
 
 export default function Home() {
   const { theme } = useTheme();
