@@ -25,6 +25,7 @@ export const ThemeStyles = {
     borderGreen: "#10B981",
     borderRed: "#EF4444",
     borderOrange: "#FFC107",
+    borderLightGray: "#EDEDF0",
   },
   dark: {
     // text
@@ -52,5 +53,6 @@ export const ThemeStyles = {
     borderGreen: "#34D399",
     borderRed: "#F87171",
     borderOrange: "#FBBF24",
+    borderLightGray: "#5C5C6E",
   },
 };

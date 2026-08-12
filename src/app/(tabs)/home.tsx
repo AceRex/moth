@@ -1,4 +1,5 @@
 import Header from "@/components/homePage/header";
+import SearchInput from "@/components/searchInput";
 import Container from "@/constants/container";
 import { globalColorStyles } from "@/constants/globalColorStyles";
 import { useTheme } from "@/constants/themeProvider";
@@ -13,6 +14,7 @@ export default function Home() {
   return (
     <Container>
       <Header greeting="Hello" name="Rex" image={undefined} />
+      <SearchInput />
     </Container>
   );
 }

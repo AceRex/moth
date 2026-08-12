@@ -29,5 +29,6 @@ export function globalColorStyles(colors: typeof ThemeStyles.light) {
     borderGreen: { borderColor: colors.borderGreen },
     borderRed: { borderColor: colors.borderRed },
     borderOrange: { borderColor: colors.borderOrange },
+    borderLightGray: { borderColor: colors.borderLightGray },
   });
 }

@@ -37,7 +37,7 @@ const Header = ({ greeting, name, image }: HeaderProps) => {
         </Text>
       </View>
       <View>
-        <Avatar fallBackName={name} />
+        <Avatar fallBackName={name} image="https://i.pravatar.cc/150?img=7" />
       </View>
     </View>
   );
