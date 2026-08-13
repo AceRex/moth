@@ -15,6 +15,7 @@ const CategoryBtn = ({
   onPress: () => void;
 }) => {
   const colors = useColors();
+  const ACTIVE_TEXT_COLOR = "#fff";
 
   return (
     <TouchableOpacity
@@ -30,7 +31,7 @@ const CategoryBtn = ({
       }}
     >
       <View>{icon}</View>
-      <Text style={{ ...(isActive ? colors.textWhite : colors.textGray) }}>
+      <Text style={isActive ? { color: ACTIVE_TEXT_COLOR } : colors.textGray}>
         {title}
       </Text>
     </TouchableOpacity>

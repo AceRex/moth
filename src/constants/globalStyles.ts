@@ -8,6 +8,7 @@ export const globalStyles = StyleSheet.create({
   w20: { width: 20 },
   w40: { width: 40 },
   h40: { height: 40 },
+  h100: { height: 100 },
   w60: { width: 60 },
   h60: { height: 60 },
   w80: { width: 80 },
