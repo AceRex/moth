@@ -10,23 +10,29 @@ export const ThemeStyles = {
     textGreen: "#10B981",
     textRed: "#EF4444",
     textOrange: "#FFC107",
+    textBlue: "#0288D1",
     // background
     bgWhite: "#FFFFFF",
     bgAccent: "#F6F6F9",
     bgPrimary: "#4A29C7",
     bgLightPrimary: "#E8E8FF",
+    bgLightBlue: "#E1F5FE",
+    bgBlue: "#0288D1",
     bgGreen: "#10B981",
     bgLightGreen: "#E8F5E9",
     bgRed: "#EF4444",
     bgLightRed: "#FDE8E8",
     bgOrange: "#FFC107",
     bgLightOrange: "#FFF3E0",
+    bgWhiteTransparent: "#ffffff88",
+
     // border
     borderPrimary: "#4A29C7",
     borderGreen: "#10B981",
     borderRed: "#EF4444",
     borderOrange: "#FFC107",
     borderLightGray: "#EDEDF0",
+    borderBlue: "#0288D1",
   },
   dark: {
     // text
@@ -39,11 +45,14 @@ export const ThemeStyles = {
     textGreen: "#34D399",
     textRed: "#F87171",
     textOrange: "#FBBF24",
+    textBlue: "#0288D1",
     // background
     bgWhite: "#16161E",
     bgAccent: "#16161E",
     bgPrimary: "#7B61FF",
     bgLightPrimary: "#3A3569",
+    bgLightBlue: "#E1F5FE",
+    bgBlue: "#0288D1",
     bgGreen: "#34D399",
     bgLightGreen: "#0E4225",
     bgRed: "#F87171",
@@ -56,5 +65,6 @@ export const ThemeStyles = {
     borderRed: "#F87171",
     borderOrange: "#FBBF24",
     borderLightGray: "#5C5C6E",
+    borderBlue: "#0288D1",
   },
 };

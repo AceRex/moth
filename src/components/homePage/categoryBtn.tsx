@@ -31,7 +31,12 @@ const CategoryBtn = ({
       }}
     >
       <View>{icon}</View>
-      <Text style={isActive ? { color: ACTIVE_TEXT_COLOR } : colors.textGray}>
+      <Text
+        style={{
+          ...(isActive ? { color: ACTIVE_TEXT_COLOR } : colors.textGray),
+          ...globalStyles.textXs,
+        }}
+      >
         {title}
       </Text>
     </TouchableOpacity>

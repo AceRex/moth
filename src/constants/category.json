@@ -16,5 +16,238 @@
       "id": 4,
       "name": "Dorms"
     }
+  ],
+  "quick_actions": [
+    {
+      "id": 1,
+      "name": "pay rent",
+      "link": "/payment/payRent"
+    },
+    {
+      "id": 2,
+      "name": "book room",
+      "link": ""
+    },
+    {
+      "id": 3,
+      "name": "resevervations",
+      "link": ""
+    },
+    {
+      "id": 4,
+      "name": "maintenance",
+      "link": ""
+    }
+  ],
+  "properties": [
+    {
+      "id": 1,
+      "name": "Moremi Villa",
+      "image": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=600&q=80",
+      "price": "100,000",
+      "location": "123 Main St",
+      "beds": 3,
+      "baths": 2,
+      "area": "1200 sqft",
+      "type": "Apartment",
+      "rating": "4.3",
+      "number_reviews": "156"
+    },
+    {
+      "id": 2,
+      "name": "Gate 1 hostel",
+      "image": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=600&q=80",
+      "price": "120,000",
+      "location": "123 Main St",
+      "beds": 3,
+      "baths": 2,
+      "area": "1200 sqft",
+      "type": "Apartment",
+      "rating": "2.0",
+      "number_reviews": "12000"
+    },
+    {
+      "id": 3,
+      "name": "Gate 2 Hostel",
+      "image": "https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?w=600&q=80",
+      "price": "130,000",
+      "location": "123 Main St",
+      "beds": 3,
+      "baths": 2,
+      "area": "1200 sqft",
+      "type": "Apartment",
+      "rating": "5.0",
+      "number_reviews": "21"
+    },
+
+    {
+      "id": 15,
+      "name": "Peace villa",
+      "image": "https://images.unsplash.com/photo-1564078516393-cf04bd966897?w=600&q=80",
+      "price": "160,000",
+      "location": "123 Main St",
+      "beds": 3,
+      "baths": 2,
+      "area": "1200 sqft",
+      "type": "Apartment",
+      "rating": "1.2",
+      "number_reviews": "1100"
+    },
+    {
+      "id": 4,
+      "name": "Grace hostel",
+      "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&q=80",
+      "price": "140,000",
+      "location": "123 Main St",
+      "beds": 3,
+      "baths": 2,
+      "area": "1200 sqft",
+      "type": "Apartment",
+      "rating": "3.2",
+      "number_reviews": "1900"
+    },
+    {
+      "id": 5,
+      "name": "Omowole hostel",
+      "image": "https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=600&q=80",
+      "price": "150,000",
+      "location": "123 Main St",
+      "beds": 3,
+      "baths": 2,
+      "area": "1200 sqft",
+      "type": "Apartment",
+      "rating": "4.7",
+      "number_reviews": "345"
+    },
+    {
+      "id": 6,
+      "name": "Philomina hostel",
+      "image": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=600&q=80",
+      "price": "160,000",
+      "location": "123 Main St",
+      "beds": 3,
+      "baths": 2,
+      "area": "1200 sqft",
+      "type": "Apartment",
+      "rating": "4.1",
+      "number_reviews": "192000"
+    },
+    {
+      "id": 7,
+      "name": "Property 7",
+      "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=600&q=80",
+      "price": "160,000",
+      "location": "123 Main St",
+      "beds": 3,
+      "baths": 2,
+      "area": "1200 sqft",
+      "type": "Apartment",
+      "rating": "4.8",
+      "number_reviews": "92"
+    },
+    {
+      "id": 8,
+      "name": "Property 8",
+      "image": "https://images.unsplash.com/photo-1605146769289-440113cc3d00?w=600&q=80",
+      "price": "160,000",
+      "location": "123 Main St",
+      "beds": 3,
+      "baths": 2,
+      "area": "1200 sqft",
+      "type": "Apartment",
+      "rating": "4.9",
+      "number_reviews": "150"
+    },
+    {
+      "id": 9,
+      "name": "Property 9",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?w=600&q=80",
+      "price": "160,000",
+      "location": "123 Main St",
+      "beds": 3,
+      "baths": 2,
+      "area": "1200 sqft",
+      "type": "Apartment",
+      "rating": "4.9",
+      "number_reviews": "2000"
+    },
+    {
+      "id": 10,
+      "name": "Property 10",
+      "image": "https://images.unsplash.com/photo-1523217582562-09d0def993a6?w=600&q=80",
+      "price": "160,000",
+      "location": "123 Main St",
+      "beds": 3,
+      "baths": 2,
+      "area": "1200 sqft",
+      "type": "Apartment",
+      "rating": "4.2",
+      "number_reviews": "200"
+    },
+    {
+      "id": 11,
+      "name": "Property 11",
+      "image": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=600&q=80",
+      "price": "160,000",
+      "location": "123 Main St",
+      "beds": 3,
+      "baths": 2,
+      "area": "1200 sqft",
+      "type": "Apartment",
+      "rating": "1.9",
+      "number_reviews": "1200"
+    },
+    {
+      "id": 12,
+      "name": "Property 12",
+      "image": "https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83?w=600&q=80",
+      "price": "160,000",
+      "location": "123 Main St",
+      "beds": 3,
+      "baths": 2,
+      "area": "1200 sqft",
+      "type": "Apartment",
+      "rating": "3.2",
+      "number_reviews": "180"
+    },
+    {
+      "id": 13,
+      "name": "Property 13",
+      "image": "https://images.unsplash.com/photo-1571055107559-3e67626fa8be?w=600&q=80",
+      "price": "160,000",
+      "location": "123 Main St",
+      "beds": 3,
+      "baths": 2,
+      "area": "1200 sqft",
+      "type": "Apartment",
+      "rating": "4.3",
+      "number_reviews": "450"
+    },
+    {
+      "id": 14,
+      "name": "Property 14",
+      "image": "https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?w=600&q=80",
+      "price": "160,000",
+      "location": "123 Main St",
+      "beds": 3,
+      "baths": 2,
+      "area": "1200 sqft",
+      "type": "Apartment",
+      "rating": "3.8",
+      "number_reviews": "1230"
+    },
+    {
+      "id": 16,
+      "name": "Property 16",
+      "image": "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=600&q=80",
+      "price": "160,000",
+      "location": "123 Main St",
+      "beds": 3,
+      "baths": 2,
+      "area": "1200 sqft",
+      "type": "Apartment",
+      "rating": "4.5",
+      "number_reviews": "890"
+    }
   ]
 }

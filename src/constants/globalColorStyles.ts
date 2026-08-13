@@ -13,6 +13,8 @@ export function globalColorStyles(colors: typeof ThemeStyles.light) {
     textGreen: { color: colors.textGreen },
     textRed: { color: colors.textRed },
     textOrange: { color: colors.textOrange },
+    textBlue: { color: colors.textBlue },
+
     // backgrounds
     bgWhite: { backgroundColor: colors.bgWhite },
     bgAccent: { backgroundColor: colors.bgAccent },
@@ -24,11 +26,16 @@ export function globalColorStyles(colors: typeof ThemeStyles.light) {
     bgLightRed: { backgroundColor: colors.bgLightRed },
     bgOrange: { backgroundColor: colors.bgOrange },
     bgLightOrange: { backgroundColor: colors.bgLightOrange },
+    bgBlue: { backgroundColor: colors.bgBlue },
+    bgLightBlue: { backgroundColor: colors.bgLightBlue },
+    bgWhiteTransparent: { backgroundColor: colors.bgWhiteTransparent },
+
     // borders
     borderPrimary: { borderColor: colors.borderPrimary },
     borderGreen: { borderColor: colors.borderGreen },
     borderRed: { borderColor: colors.borderRed },
     borderOrange: { borderColor: colors.borderOrange },
+    borderBlue: { borderColor: colors.borderBlue },
     borderLightGray: { borderColor: colors.borderLightGray },
   });
 }
